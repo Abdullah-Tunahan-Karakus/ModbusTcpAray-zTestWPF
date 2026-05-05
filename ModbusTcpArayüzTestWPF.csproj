@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ModbusTcpKutuphanesi">
+      <HintPath>..\ModbusTcpKutuphanesi\bin\Debug\net9.0\ModbusTcpKutuphanesi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
